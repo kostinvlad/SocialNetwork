@@ -1,0 +1,12 @@
+.passport {
+  display: flex; 
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.avatar {
+  border-radius: 5px;
+}

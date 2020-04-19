@@ -1,0 +1,8 @@
+.content {
+    grid-area: content;
+    border: 2px dashed black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+  
+  }
