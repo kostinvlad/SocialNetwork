@@ -11,7 +11,7 @@ const Passport = (props) => {
         
 
         <div className={classes.description}>
-            <h1>Мухамед инб Азиз</h1>
+            <h1>Мухамед инб Азиз аль Занзибар</h1>
             <p>Education: Liceum 6</p>
             <p>Location: Sahravi</p>
             <p>Job: Backend</p>

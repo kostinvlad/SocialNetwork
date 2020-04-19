@@ -20,4 +20,9 @@
   li:hover {
     color: #b7001d;
   }
+
+  .itemlink {
+    text-decoration: none;
+    color: inherit;
+  }
   

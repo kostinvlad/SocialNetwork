@@ -13,6 +13,7 @@
   width: 1200px;
   margin: 0 auto;
   
+  
  
  grid-template-areas:
 "header header"
@@ -23,4 +24,13 @@
   
 }
 
+.app-wrapper-content {  
+    grid-area: content;
+    border: 2px dashed black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+  
+  
+}
 
