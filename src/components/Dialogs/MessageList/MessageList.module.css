@@ -1,0 +1,7 @@
+.messageList {
+    display: block;
+    background-color: #ffefef;
+    border: 2px dashed black;
+    height: 80vh;
+    padding: 10px;
+}

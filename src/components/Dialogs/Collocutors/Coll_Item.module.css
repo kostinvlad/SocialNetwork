@@ -1,0 +1,17 @@
+.coll_Item_Link {
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: start;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 99%;
+    height: 50px;
+    border-bottom: 2px dashed black;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.coll_Item_Link:hover {
+    color: #b7001d;
+}

@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
+
 import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
 import Profile from './components/Content/Content';
 import Dialogs from './components/Dialogs/Dialogs';
+import News from './components/News/News';
+import Music from './components/Music/Music';
+import Videos from './components/Videos/Videos';
 
 
 const App = () => {
   return (
-    <div className='app-wrapper'>
-      <Header />
-      <Navigation />
-      <div className='app-wrapper-content'>
-        <Profile />
-        {/* <Dialogs /> */}
+    <BrowserRouter>
+      <div className='app-wrapper'>
+        <Header />
+        <Navigation />
+        <div className='app-wrapper-content'>
+          <Route path='/dialogs' component={Dialogs} />
+          <Route path='/content' component={Profile} />
+          <Route path='/news' component={News} />
+          <Route path='/music' component={Music} />          
+          <Route path='/videos' component={Videos} />
+        </div>
+
       </div>
-      {/* <Profile /> */}
-      {/* <Dialogs /> */}
-    </div>
+    </BrowserRouter>
   );
 }
 

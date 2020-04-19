@@ -25,4 +25,8 @@
     text-decoration: none;
     color: inherit;
   }
+
+  a.activeLink {
+    color: #b7001d;
+  }
   

@@ -7,11 +7,10 @@ const Passport = (props) => {
     <div className={classes.passport}>
         <div className="avatar">
             <img src="http://avatarmaker.ru/img/11/1021/102060.jpg"></img>
-        </div>
-        
+        </div>        
 
         <div className={classes.description}>
-            <h1>Мухамед инб Азиз аль Занзибар</h1>
+            <h1 className={classes.header}>Мухамед инб Абдуль аль Азиз Зандзибар</h1>
             <p>Education: Liceum 6</p>
             <p>Location: Sahravi</p>
             <p>Job: Backend</p>

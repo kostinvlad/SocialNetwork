@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './MessageList.module.css'
 
-const MessageList = () => {
+const MessageList = (props) => {
     return (
-        <div>
-
+        <div className={classes.messageList}>
+            <p>сообщение</p>
         </div>
     )
 }

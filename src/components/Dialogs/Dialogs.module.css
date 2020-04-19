@@ -1,0 +1,13 @@
+.dialogs { 
+    display: grid;
+    width: 908px;
+    margin: 0 auto; 
+   
+   grid-template-areas:
+  "collocutorsBlock messageListBlock";
+  
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;  
+  }
+

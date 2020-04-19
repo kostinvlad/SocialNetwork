@@ -4,11 +4,12 @@ import Collocutors from './Collocutors/Collocutors';
 import MessageList from './MessageList/MessageList';
 
 
-const Dialogs = () => {
+const Dialogs = (props) => {
     return (
-        <div className='dialogs'>
-            <Collocutors />
-            <MessageList />
+        <div className={classes.dialogs}>
+            
+            <Collocutors className={classes.collocutorsBlock}/>
+            <MessageList className={classes.messageListBlock}/>
         </div>
     )
 };
