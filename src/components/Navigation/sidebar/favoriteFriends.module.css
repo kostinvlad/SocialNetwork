@@ -1,0 +1,18 @@
+.sidebarWrapper {
+  display: block;
+}
+
+.sidebarHeader {
+  font-family: 'Courier prime';
+  font-weight: normal;
+  
+  
+}
+
+.iconBlock {
+  margin-top: 10px;
+}
+
+.iconBlock img {
+  margin-left: 10px;
+}

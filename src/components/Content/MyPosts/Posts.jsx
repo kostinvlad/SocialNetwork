@@ -3,6 +3,7 @@ import classes from './Posts.module.css'
 import Post from './Post/Post';
 
 const Posts = (props) => {
+    let posts = props.posts.map(data => <Post post={data.post} />)
     return (
         <div className={classes.posts}>
             <h2 className={classes.header}>My posts</h2>
@@ -12,8 +13,7 @@ const Posts = (props) => {
                 </textarea>
                 <button className={classes.button}><p>send</p></button>
             </form>
-            <Post message="Hi!"/>
-            <Post message="How are u?"/>
+            {posts}
         </div>
 
     )

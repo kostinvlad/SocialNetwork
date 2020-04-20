@@ -2,14 +2,14 @@ import React from 'react';
 import classes from './Collocutors.module.css'
 import Coll_Item from './Coll_Item';
 
-const Collocutors = (props) => {
+
+const Collocutors = (props) => { 
+        let colls = props.states.map( data => <Coll_Item id={data.id} name={data.name}/> );           
+       
+   
 return (
     <div className={classes.collocutors}>
-        <Coll_Item id='1'/>
-        <Coll_Item id='2'/>
-        <Coll_Item id='3'/>
-        <Coll_Item id='4'/>
-        
+        {colls}        
     </div>
 )
 }
