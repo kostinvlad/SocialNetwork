@@ -6,8 +6,8 @@ import MessageList from './MessageList/MessageList';
 const Dialogs = (props) => {
     return (
         <div className={classes.dialogs}>
-            <Collocutors states={props.dialogsStates.collocutors} className={classes.collocutorsBlock} />
-            <MessageList states={props.dialogsStates.messages} className={classes.messageListBlock} />
+            <Collocutors store={props.store} className={classes.collocutorsBlock} />
+            <MessageList store={props.store} className={classes.messageListBlock} />
         </div>
     )
 };

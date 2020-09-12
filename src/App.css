@@ -6,10 +6,12 @@
   font-family: 'Courier Prime', monospace;
 }
 
-.app-wrapper { 
+.appWrapper { 
   display: grid;
   width: 1200px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  
+  
  
  grid-template-areas:
 "header header"
@@ -19,11 +21,14 @@
   grid-gap: 30px;  
 }
 
-.app-wrapper-content {  
+.appWrapperContent { 
+    display: flex; 
     grid-area: content;
     border: 2px dashed black;
+    /* border-bottom: none; */
     padding-left: 10px;
     padding-top: 10px;
-    padding-right: 10px;  
+    padding-right: 10px;    
+     
 }
 

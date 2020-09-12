@@ -1,13 +1,15 @@
 import React from 'react';
 import classes from './Content.module.css'
-import Posts from './MyPosts/Posts';
+import PostsContainer from './MyPosts/PostsContainer';
 import Passport from './Passport/Passport';
 
 const Profile = (props) => {
+    debugger;
     return (
         <div className={classes.content}>
             <Passport />
-            <Posts posts={props.profileStates.posts} />
+            <PostsContainer
+                store={props.store} state={props.state} />
         </div>
     )
 };

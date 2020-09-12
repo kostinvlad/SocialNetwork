@@ -5,8 +5,8 @@ import FavoriteFriends from './sidebar/FavoriteFriends';
 
 const Navigation = (props) => {
 return (
-    <div>
-        <nav className={classes.nav}>
+    <div className={classes.nav}>
+        <nav>
             <ul className={classes.menu}>
                 <li className={classes.item}><NavLink to="/content" activeClassName={classes.activeLink} className={classes.itemlink}>&#123;Profile&#125;</NavLink></li>
                 <li className={classes.item}><NavLink to="/dialogs" activeClassName={classes.activeLink} className={classes.itemlink}>&Prime;Messages&Prime;</NavLink></li>
